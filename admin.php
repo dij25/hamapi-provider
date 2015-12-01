@@ -95,12 +95,12 @@ function json_oauth_admin_validate_parameters( $params ) {
 	$valid = array();
 
 	if ( empty( $params['name'] ) ) {
-		return new WP_Error( 'json_oauth_missing_name', __( 'Consumer name is required' ) );
+		return new WP_Error( 'json_oauth_missing_name', __( 'Consumer name is required', 'json_oauth' ) );
 	}
 	$valid['name'] = wp_filter_post_kses( $params['name'] );
 
 	if ( empty( $params['description'] ) ) {
-		return new WP_Error( 'json_oauth_missing_description', __( 'Consumer description is required' ) );
+		return new WP_Error( 'json_oauth_missing_description', __( 'Consumer description is required', 'json_oauth' ) );
 	}
 	$valid['description'] = wp_filter_post_kses( $params['description'] );
 
@@ -185,7 +185,7 @@ function json_oauth_admin_edit_page() {
 		$id = absint( $_REQUEST['id'] );
 		$consumer = get_post( $id );
 		if ( is_wp_error( $consumer ) || empty( $consumer ) ) {
-			wp_die( __( 'Invalid consumer ID.' ) );
+			wp_die( __( 'Invalid consumer ID.', 'json_oauth' ) );
 		}
 
 		$form_action = admin_url( 'admin.php?action=json-oauth-edit' );
@@ -211,7 +211,7 @@ function json_oauth_admin_edit_page() {
 
 	// Header time!
 	global $title, $parent_file, $submenu_file;
-	$title = $consumer ? __( 'Edit Consumer' ) : __( 'Add Consumer' );
+	$title = $consumer ? __( 'Edit Consumer', 'json_oauth' ) : __( 'Add Consumer', 'json_oauth' );
 	$parent_file = 'users.php';
 	$submenu_file = 'json-oauth';
 
@@ -255,12 +255,12 @@ function json_oauth_admin_edit_page() {
 
 		if ( empty( $consumer ) ) {
 			wp_nonce_field( 'json-oauth-add' );
-			submit_button( __( 'Add Consumer' ) );
+			submit_button( __( 'Add Consumer', 'json_oauth' ) );
 		}
 		else {
 			echo '<input type="hidden" name="id" value="' . esc_attr( $consumer->ID ) . '" />';
 			wp_nonce_field( 'json-oauth-edit-' . $consumer->ID );
-			submit_button( __( 'Save Consumer' ) );
+			submit_button( __( 'Save Consumer', 'json_oauth' ) );
 		}
 
 		?>
@@ -326,10 +326,10 @@ function json_oauth_profile_messages() {
 	}
 
 	if ( ! empty( $_GET['oauth_revoked'] ) ) {
-		echo '<div id="message" class="updated"><p>' . __( 'Token revoked.' ) . '</p></div>';
+		echo '<div id="message" class="updated"><p>' . __( 'Token revoked.', 'json_oauth' ) . '</p></div>';
 	}
 	if ( ! empty( $_GET['oauth_revocation_failed'] ) ) {
-		echo '<div id="message" class="updated"><p>' . __( 'Unable to revoke token.' ) . '</p></div>';
+		echo '<div id="message" class="updated"><p>' . __( 'Unable to revoke token.', 'json_oauth' ) . '</p></div>';
 	}
 }
 

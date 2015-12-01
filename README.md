@@ -1,51 +1,30 @@
-# OAuth 1.0a Server for WordPress
-This project is an OAuth 1.0a-compatible authentication method for WordPress.
-This is a separate-but-related project to [WP API][], designed to provide
-authentication suitable for the API.
+# HamAPI Provider
 
-## Documentation
+Contributors: Takahashi_Fumiki  
+Tags: oauth  
+Requires at least: 4.3  
+Tested up to: 4.3.1  
+Stable tag: 1.0
 
-Read the [plugin's documentation][docs].
+An OAuth 1.0a Provider plugin. Forked from [WP-API/OAuth1](https://github.com/WP-API/OAuth1).
 
-[docs]: https://github.com/WP-API/OAuth1/tree/master/docs
+## Description
+
+Read the [Original Documentation](https://github.com/WP-API/OAuth1/tree/master/docs).
 
 
-## Quick Setup
+## Installation
 
-Want to test out the OAuth API and work on it? Here's how you can set up your own
-testing environment in a few easy steps:
+Upload this foloder to `wp-content/plugins` and activate this on Admin Panel.
 
-1. Install [Vagrant](http://vagrantup.com/) and [VirtualBox](https://www.virtualbox.org/).
-2. Clone [Chassis](https://github.com/Chassis/Chassis):
+You will find `Users > Applications ` link on sidebar. Create your application and get new credentials!
 
-   ```bash
-   git clone --recursive git@github.com:Chassis/Chassis.git api-tester
-   ```
+## Frequently Asked Questions
 
-3. Grab a copy of WP API and OAuth API:
+Not yet.
 
-   ```bash
-   cd api-tester
-   mkdir -p content/plugins content/themes
-   cp -r wp/wp-content/themes/* content/themes
-   git clone --recursive git@github.com:WP-API/WP-API.git content/plugins/json-rest-api
-   git clone git@github.com:WP-API/OAuth1.git content/plugins/oauth-server
-   ```
+## Changelog
 
-4. Start the virtual machine:
+### 1.0.0
 
-   ```bash
-   vagrant up
-   ```
-
-5. Browse to http://vagrant.local/wp/wp-admin/ and activate the WP API and OAuth
-   API plugins
-
-   ```
-   Username: admin
-   Password: password
-   ```
-
-6. Refer to the [documentation][docs] on how to connect an OAuth client.
-
-[WP API]: https://github.com/WP-API/WP-API
+- Forked from original.

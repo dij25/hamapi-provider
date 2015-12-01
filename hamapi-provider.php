@@ -1,8 +1,17 @@
 <?php
 /**
- * Plugin Name: OAuth Server
- * Version 0.1
+ * Plugin Name: HamAPI Provider
+ * Plugin URI: https://github.com/hametuha/hamapi-provider
+ * Description: An OAuth 1.0a provider for WP REST API.
+ * Author: Hametuha INC.
+ * Author URI: https://hametuha.co.jp
+ * Version 1.0
+ * License: GPL2+
+ * TextDomain: json_oauth
+ * Domain Path: /languages/
  */
+
+load_plugin_textdomain( 'json_oauth', false, 'hamapi-provider/languages' );
 
 include_once( dirname( __FILE__ ) . '/lib/class-wp-json-authentication.php' );
 include_once( dirname( __FILE__ ) . '/lib/class-wp-json-authentication-oauth1.php' );

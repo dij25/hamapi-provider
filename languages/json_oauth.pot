@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HamAPI Provider\n"
+"POT-Creation-Date: 2015-12-01 14:12+0900\n"
+"PO-Revision-Date: 2015-12-01 14:13+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:30 admin.php:68
+msgid "Registered OAuth Applications"
+msgstr ""
+
+#: admin.php:33
+msgctxt "menu title"
+msgid "Applications"
+msgstr ""
+
+#: admin.php:72
+msgctxt "application"
+msgid "Add New"
+msgstr ""
+
+#: admin.php:82
+msgid "Search Applications"
+msgstr ""
+
+#: admin.php:98
+msgid "Consumer name is required"
+msgstr ""
+
+#: admin.php:103
+msgid "Consumer description is required"
+msgstr ""
+
+#: admin.php:179
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: admin.php:188
+msgid "Invalid consumer ID."
+msgstr ""
+
+#: admin.php:214
+msgid "Edit Consumer"
+msgstr ""
+
+#: admin.php:214 admin.php:258
+msgid "Add Consumer"
+msgstr ""
+
+#: admin.php:235
+msgctxt "field name"
+msgid "Consumer Name"
+msgstr ""
+
+#: admin.php:245
+msgctxt "field name"
+msgid "Description"
+msgstr ""
+
+#: admin.php:263
+msgid "Save Consumer"
+msgstr ""
+
+#: admin.php:290
+msgid "Authorized Applications"
+msgstr ""
+
+#: admin.php:296
+msgid "Application Name"
+msgstr ""
+
+#: admin.php:306
+msgid "Revoke"
+msgstr ""
+
+#: admin.php:313
+msgid "No applications authorized."
+msgstr ""
+
+#: admin.php:329
+msgid "Token revoked."
+msgstr ""
+
+#: admin.php:332
+msgid "Unable to revoke token."
+msgstr ""
+
+#: hamapi-provider.php:48
+msgid "Consumer"
+msgstr ""
+
+#: hamapi-provider.php:49
+msgid "Consumers"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:61
+#, php-format
+msgid "Missing parameter %s"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:108
+msgid "Invalid authorization action"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:145
+msgid "Access Token"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:146
+#, php-format
+msgid "Your verification token is <code>%s</code>"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:157
+msgid "The callback URL is invalid"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:180
+msgid "Error"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:36
+msgid "Name"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:37
+msgid "Type"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:38
+msgid "Description"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:39
+msgid "Consumer Key"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:40
+msgid "Consumer Secret"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:49
+msgid "Select consumer"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:58
+msgid "Untitled"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:70
+msgid "Edit"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:145
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-wp-json-authentication-oauth1.php:257
+#: lib/class-wp-json-authentication-oauth1.php:269
+msgid "No OAuth parameters supplied"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:279
+msgid "Route is invalid"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:320
+msgid "Token is not registered for the given consumer"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:336
+msgid "Invalid token"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:342
+msgid "OAuth request token has expired"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:396
+msgid "Callback URL is invalid"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:425
+msgid "Invalid user specified for access token"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:475
+msgid "OAuth token has not been authorized"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:479
+msgid "OAuth verifier does not match"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:518
+msgid "Access token does not exist"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:570
+msgid "Invalid Signature - failed to sort parameters"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:592
+msgid "Signature method is invalid"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:598
+msgid "OAuth signature does not match"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:669
+msgid "Invalid timestamp"
+msgstr ""
+
+#: lib/class-wp-json-authentication-oauth1.php:677
+msgid "Invalid nonce - nonce has already been used"
+msgstr ""
+
+#: lib/class-wp-json-authentication.php:24
+msgid "The type of authentication must be set"
+msgstr ""
+
+#: lib/class-wp-json-authentication.php:58
+msgid "Consumer Key is invalid"
+msgstr ""
+
+#: theme/oauth1-authorize.php:3 theme/oauth1-authorize.php:82
+msgid "Authorize"
+msgstr ""
+
+#: theme/oauth1-authorize.php:57
+#, php-format
+msgid "Connect %1$s"
+msgstr ""
+
+#: theme/oauth1-authorize.php:65
+#, php-format
+msgid ""
+"Howdy <strong>%1$s</strong>,<br/> \"%2$s\" would like to connect to %3$s."
+msgstr ""
+
+#: theme/oauth1-authorize.php:83
+msgid "Cancel"
+msgstr ""
+
+#: theme/oauth1-authorize.php:89
+msgid "Switch user"
+msgstr ""
+
+#: theme/oauth1-authorize.php:92
+msgid "Register"
+msgstr ""

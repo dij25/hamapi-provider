@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HamAPI Provider\n"
+"POT-Creation-Date: 2015-12-01 14:12+0900\n"
+"PO-Revision-Date: 2015-12-01 14:23+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin.php:30 admin.php:68
+msgid "Registered OAuth Applications"
+msgstr "登録済みOAuthアプリケーション"
+
+#: admin.php:33
+msgctxt "menu title"
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: admin.php:72
+msgctxt "application"
+msgid "Add New"
+msgstr "新規追加"
+
+#: admin.php:82
+msgid "Search Applications"
+msgstr "アプリケーションを検索"
+
+#: admin.php:98
+msgid "Consumer name is required"
+msgstr "コンシューマー名は必須です"
+
+#: admin.php:103
+msgid "Consumer description is required"
+msgstr "コンシューマーの説明が必須です"
+
+#: admin.php:179
+msgid "You do not have permission to access this page."
+msgstr "このページにアクセスする権限がありません。"
+
+#: admin.php:188
+msgid "Invalid consumer ID."
+msgstr "無効なコンシューマーIDです。"
+
+#: admin.php:214
+msgid "Edit Consumer"
+msgstr "コンシューマーを編集"
+
+#: admin.php:214 admin.php:258
+msgid "Add Consumer"
+msgstr "コンシューマーを追加"
+
+#: admin.php:235
+msgctxt "field name"
+msgid "Consumer Name"
+msgstr "コンシューマー名"
+
+#: admin.php:245
+msgctxt "field name"
+msgid "Description"
+msgstr "説明"
+
+#: admin.php:263
+msgid "Save Consumer"
+msgstr "コンシューマーを保存"
+
+#: admin.php:290
+msgid "Authorized Applications"
+msgstr "承認済みアプリケーション"
+
+#: admin.php:296
+msgid "Application Name"
+msgstr "アプリケーション名"
+
+#: admin.php:306
+msgid "Revoke"
+msgstr "無効にする"
+
+#: admin.php:313
+msgid "No applications authorized."
+msgstr "承認されたアプリケーションがありません。"
+
+#: admin.php:329
+msgid "Token revoked."
+msgstr "トークンが無効になりました。"
+
+#: admin.php:332
+msgid "Unable to revoke token."
+msgstr "トークンを無効にできません。"
+
+#: hamapi-provider.php:48
+msgid "Consumer"
+msgstr "コンシューマー"
+
+#: hamapi-provider.php:49
+msgid "Consumers"
+msgstr "コンシューマー"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:61
+#, php-format
+msgid "Missing parameter %s"
+msgstr "パラメーター%sがありません"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:108
+msgid "Invalid authorization action"
+msgstr "無効な承認要求です"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:145
+msgid "Access Token"
+msgstr "アクセストークン"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:146
+#, php-format
+msgid "Your verification token is <code>%s</code>"
+msgstr "あなたの認証トークンは<code>%s</code>です"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:157
+msgid "The callback URL is invalid"
+msgstr "コールバックURLが無効です"
+
+#: lib/class-wp-json-authentication-oauth1-authorize.php:180
+msgid "Error"
+msgstr "エラー"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:36
+msgid "Name"
+msgstr "名前"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:37
+msgid "Type"
+msgstr "タイプ"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:38
+msgid "Description"
+msgstr "説明"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:39
+msgid "Consumer Key"
+msgstr "コンシューマーキー"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:40
+msgid "Consumer Secret"
+msgstr "コンシューマーシークレット"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:49
+msgid "Select consumer"
+msgstr "コンシューマーを選択"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:58
+msgid "Untitled"
+msgstr "タイトルなし"
+
+#: lib/class-wp-json-authentication-oauth1-listtable.php:70
+msgid "Edit"
+msgstr "編集"
+
+#: lib/class-wp-json-authentication-oauth1.php:145
+#, php-format
+msgid "Missing OAuth parameter %s"
+msgid_plural "Missing OAuth parameters %s"
+msgstr[0] "OAuthパラメーター %s がありません"
+
+#: lib/class-wp-json-authentication-oauth1.php:257
+#: lib/class-wp-json-authentication-oauth1.php:269
+msgid "No OAuth parameters supplied"
+msgstr "OAuthパラメーターが提供されていません"
+
+#: lib/class-wp-json-authentication-oauth1.php:279
+msgid "Route is invalid"
+msgstr "ルートが無効です"
+
+#: lib/class-wp-json-authentication-oauth1.php:320
+msgid "Token is not registered for the given consumer"
+msgstr "指定されたコンシューマーにはトークンが設定されていません"
+
+#: lib/class-wp-json-authentication-oauth1.php:336
+msgid "Invalid token"
+msgstr "無効なトークン"
+
+#: lib/class-wp-json-authentication-oauth1.php:342
+msgid "OAuth request token has expired"
+msgstr "OAuthリクエストトークンが無効です"
+
+#: lib/class-wp-json-authentication-oauth1.php:396
+msgid "Callback URL is invalid"
+msgstr "コールバックURLが無効です"
+
+#: lib/class-wp-json-authentication-oauth1.php:425
+msgid "Invalid user specified for access token"
+msgstr "アクセストークンに無効なユーザーが指定されました"
+
+#: lib/class-wp-json-authentication-oauth1.php:475
+msgid "OAuth token has not been authorized"
+msgstr "OAuthトークンは認証されていません"
+
+#: lib/class-wp-json-authentication-oauth1.php:479
+msgid "OAuth verifier does not match"
+msgstr "OAuth証明書がマッチしません"
+
+#: lib/class-wp-json-authentication-oauth1.php:518
+msgid "Access token does not exist"
+msgstr "アクセストークンが存在しません"
+
+#: lib/class-wp-json-authentication-oauth1.php:570
+msgid "Invalid Signature - failed to sort parameters"
+msgstr "不正な署名 - パラメーターの並び替えに失敗しました"
+
+#: lib/class-wp-json-authentication-oauth1.php:592
+msgid "Signature method is invalid"
+msgstr "署名方法が無効です"
+
+#: lib/class-wp-json-authentication-oauth1.php:598
+msgid "OAuth signature does not match"
+msgstr "OAuth署名が合いません"
+
+#: lib/class-wp-json-authentication-oauth1.php:669
+msgid "Invalid timestamp"
+msgstr "無考なタイムスタンプ"
+
+#: lib/class-wp-json-authentication-oauth1.php:677
+msgid "Invalid nonce - nonce has already been used"
+msgstr "不正なナンス - ナンスはすでに使用済みです"
+
+#: lib/class-wp-json-authentication.php:24
+msgid "The type of authentication must be set"
+msgstr "認証タイプを指定しなければなりません"
+
+#: lib/class-wp-json-authentication.php:58
+msgid "Consumer Key is invalid"
+msgstr "コンシューマーキーが無効です"
+
+#: theme/oauth1-authorize.php:3 theme/oauth1-authorize.php:82
+msgid "Authorize"
+msgstr "認証"
+
+#: theme/oauth1-authorize.php:57
+#, php-format
+msgid "Connect %1$s"
+msgstr "%1$sに接続"
+
+#: theme/oauth1-authorize.php:65
+#, php-format
+msgid "Howdy <strong>%1$s</strong>,<br/> \"%2$s\" would like to connect to %3$s."
+msgstr "こんちは、<strong>%1$s</strong>さん。<br/> \"%2$s\" が %3$s への接続を要求しています。"
+
+#: theme/oauth1-authorize.php:83
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: theme/oauth1-authorize.php:89
+msgid "Switch user"
+msgstr "ユーザー切り替え"
+
+#: theme/oauth1-authorize.php:92
+msgid "Register"
+msgstr "登録"
